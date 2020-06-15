@@ -24,7 +24,7 @@ class TitleForm extends React.Component {
           value={this.state.name}
           onChange={this.handleChange}
         />
-        <Form.Button>add</Form.Button>
+        <Form.Button>ADD ME!!</Form.Button>
       </Form>
     )
   }

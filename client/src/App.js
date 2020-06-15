@@ -48,7 +48,8 @@ class App extends Component {
 
   render() {
     return (
-      <Container style={{ padding: "30px 0" }}>
+      <Container style={{ padding: "60px 0" }}>
+        <h1>Rails React Restaurant</h1>
         <TitleForm addMenu={this.addMenu} />
         <h1>Menus</h1>
         <TitleList 

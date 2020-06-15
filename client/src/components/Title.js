@@ -9,7 +9,7 @@ const Title = ({ id, complete, name, updateTitle, deleteTitle }) => (
       onClick={() => updateTitle(id)}
       />
       <div style={complete ? styles.complete : {}} className="center">
-        <Header as="h2" style={{ marginLeft: "15px", }}>{ name }</Header>
+        <Header as="h2" style={{ marginLeft: "15px" }}>{ name }</Header>
       </div>
     </div>
     <Button 
